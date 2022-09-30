@@ -7,7 +7,7 @@
 
 - git commit -m "COMMIT MESSAGE" - Commit changes
 
--git remote -v - Something
+- git remote -v - Something
 - git push - Push changes to GitHub
 
 - git branch [NEWBRANCHNAME] - Create new branch
