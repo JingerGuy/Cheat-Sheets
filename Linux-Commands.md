@@ -34,7 +34,7 @@
  
 -  chown - Command for granting ownership of files or folders
 -  chmod - Command to change file permissions
--
+- bash - run script
 -
 -
 -
