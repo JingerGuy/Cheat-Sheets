@@ -51,7 +51,7 @@ nano
 ```
 cat
 ```
-
+---
 
 ### Command to escalate privileges
 ```
@@ -77,7 +77,8 @@ ifconfig
 ```
 ufw
 ```
-
+---
+## User Management
 
 ### Add defined USER
 ```
@@ -103,6 +104,8 @@ chown
 ```
 chmod
 ```
+---
+## Script Running
 ### Run bash script 
 ```
 bash
