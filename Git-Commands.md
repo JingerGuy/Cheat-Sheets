@@ -11,43 +11,48 @@ git clone https://github.com/exampleuser/python.git  - Will Clone the Repository
 ```
 ### How to show Repository status
 ```
-git status  
-Display Local Repository status
+git status
 ```
-
+---
 ## Git Add
-### How to add files to staging
+### Stage selected files 
 ```
 git add
-Stage selected files 
-
+```
+### Stage all files 
+```  
 git add --all
-Stage all files  
-
+```
+### Stage all files from folder
+```
 git add .
-Stage all files from folder
 ``` 
-
+---
 ## Git branch
-### How to create and delete branchs
+## How to create and delete branchs
+### Create new branch 
 ```
 git branch [NEWBRANCHNAME]
-Create new branch 
-
-git checkout -b [NEWBRANCHNAME]
-Create new branch and change to new branch 
-
-git branch -d [BRANCHNAME]
-Delete branch 
-
-git push --delete origin [BRANCHNAME]
-Close and delete branch 
 ```
-# Git commit and push
+### Create new branch and change to new branch 
+```
+git checkout -b [NEWBRANCHNAME]
+```
+### Delete branch
+```
+git branch -d [BRANCHNAME]
+```
+### Close and delete branch 
+```
+git push --delete origin [BRANCHNAME]
+```
+---
+## Git commit and push
+### Commit changes with a message 
 ```
 git commit -m "COMMIT MESSAGE"  
-Commit changes with a message entered in the ""
- 
+``` 
+ ### Push changes to GitHub 
+ ```
 git push
-Push changes to GitHub 
 ```
